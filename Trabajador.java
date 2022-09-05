@@ -1,7 +1,7 @@
 package Ejerc;
 
 import java.util.ArrayList;
-
+//Daira Sayuri Hernandez Rubio 
 public class Trabajador {
 
     private int numtrab, horasextra, añoingreso;
