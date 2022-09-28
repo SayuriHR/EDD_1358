@@ -3,7 +3,7 @@ package Ejerc;
 
 /**
  *
- * @author DENISSE HERNANDEZ
+ * @author SAYURI HERNANDEZ
  */
 class Nodo<T> {
 
