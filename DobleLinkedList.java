@@ -2,7 +2,7 @@ package Ejerc;
 
 /**
  *
- * @author DENISSE HERNANDEZ
+ * @author SAYURI HERNANDEZ
  */
 public class DobleLinkedList<T> {
 
