@@ -42,7 +42,7 @@ public class FrecuenciaDeCaracteres {
         int contador_x = 0;
         int contador_y = 0;
         int contador_z = 0;
-        //mayúsculas
+       
         int contador_A = 0;
         int contador_B = 0;
         int contador_C = 0;
@@ -72,8 +72,8 @@ public class FrecuenciaDeCaracteres {
         int contador_Z = 0;
         try {
             BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\DENISSE HERNANDEZ\\el_quijote.docx"));
-            System.out.println("TEXTO LEIDO");
-            System.out.println("----- -----\n");
+            System.out.println(" EL TEXTO A SIDO LEIDO");
+            System.out.println("--------\n");
 
             String linea = br.readLine();
             while (linea != null) {
@@ -164,7 +164,7 @@ public class FrecuenciaDeCaracteres {
                         contador_z++;
                     }
 
-                    //mayúsculas
+                    
                     if (letractual == 'A') {
                         contador_A++;
                     }
@@ -247,10 +247,10 @@ public class FrecuenciaDeCaracteres {
                         contador_Z++;
                     }
 
-                    //Leemos siguiente línea
+                    
                 }
                 linea = br.readLine();
-                System.out.println("línea terminada");
+                System.out.println("LA LINEA A SIDO TERMINADA");
             }
             br.close();
         } catch (FileNotFoundException e) {
@@ -287,7 +287,7 @@ public class FrecuenciaDeCaracteres {
         System.out.println("caracter x contados: " + contador_x);
         System.out.println("caracter y contados: " + contador_y);
         System.out.println("caracter z contados: " + contador_z);
-        //mayus
+        
         System.out.println("caracter A contados: " + contador_A);
         System.out.println("caracter B contados: " + contador_B);
         System.out.println("caracter C contados: " + contador_C);
